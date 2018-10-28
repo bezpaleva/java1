@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var a = +prompt('Введите первое число ');
+        var b = +prompt('Введите второе число ');
+
+        function add(a, b) {
+            return a + b;
+        }
+
+        var result = add(a, b);
+        alert("Сумма a и b равна: " + result);
+
+        function sub(a, b) {
+            return a - b;
+        }
+
+        result = sub(a, b);
+        alert("Разность a и b равна: " + result);
+
+        function mult(a, b) {
+            return a * b;
+        }
+
+        result = mult(a, b);
+        alert("Произведение a и b равна: " + result);
+
+        function del(a, b) {
+            return a / b;
+        }
+
+        result = del(a, b);
+        alert("Частное a и b равна: " + result);
+
+    </script>
+</body>
+
+</html>
